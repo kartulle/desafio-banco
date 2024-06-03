@@ -1,4 +1,8 @@
-import java.sql.SQLOutput;
+import banco.Conta;
+import banco.ContaCorrente;
+import banco.ContaPoupanca;
+import cliente.Cliente;
+
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or

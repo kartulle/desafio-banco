@@ -1,3 +1,6 @@
+package banco;
+import cliente.Cliente;
+
 public abstract class Conta implements IConta {
 
     private static final int AGENCIA_PADRAO = 1;
@@ -6,7 +9,7 @@ public abstract class Conta implements IConta {
     protected int agencia;
     protected int numero;
     protected double saldo;
-    protected Cliente cliente;
+    public Cliente cliente;
 
     public Conta(Cliente cliente) {
         this.agencia = Conta.AGENCIA_PADRAO;
