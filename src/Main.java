@@ -1,6 +1,6 @@
-import banco.Conta;
-import banco.ContaCorrente;
-import banco.ContaPoupanca;
+import banco.conta.Conta;
+import banco.conta.ContaCorrente;
+import banco.conta.ContaPoupanca;
 import cliente.Cliente;
 
 import java.util.Scanner;
@@ -39,7 +39,7 @@ public class Main {
                     System.out.println("Quanto quer sacar?");
                     double valorSaque = scanner.nextDouble();
                     cc.sacar(valorSaque);
-                    System.out.println("Você tem: " + cc.getSaldo() + " na sua conta corrente");
+                    System.out.println("Você tem: R$" + cc.getSaldo() + " na sua conta corrente");
                     break;
                 case 4:
                     System.out.println("Digite o valor para transferência");

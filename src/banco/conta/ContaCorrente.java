@@ -1,4 +1,4 @@
-package banco;
+package banco.conta;
 import cliente.Cliente;
 
 public class ContaCorrente extends Conta {
@@ -9,7 +9,7 @@ public class ContaCorrente extends Conta {
 
     @Override
     public void imprimirExtrato() {
-        System.out.println("=== Extrato banco.Conta Corrente ===");
+        System.out.println("=== Extrato Conta Corrente ===");
         super.imprimirInfosComuns();
     }
 }
